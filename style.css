@@ -286,3 +286,180 @@ font-size: 15px;
   color: white;
   margin-top: 40px;
 }
+@media screen and (max-width:600px){
+  .background_image img{
+    width: auto;
+  }
+  .heading{
+    width: auto;
+  }
+  .right_side{
+    margin-left: 715px;
+  }
+  .cart img{
+    width: 60px;
+  }
+  .right_text{
+    font-size: 30px;
+  }
+  .left_side img{
+    width: 220px;
+  }
+  .background_txt_cont{
+margin-top: 40px;
+line-height: 75px;
+width: 290px;
+  }
+  .background_txt{
+font-size: 60px;
+  }
+  .background_txt1{
+  margin-top: -12px;
+font-size: 30px;
+  }
+  .new_books{
+    width: 100%;
+  }
+  .new_books_text{
+    width: 1000px;
+    font-size: 80px;
+  }
+  .new_books_wholecont{
+   margin-left: 280px;
+    grid-template-columns: repeat(1,1fr);
+    gap: 140px;
+  }
+  .new_books_image img{
+    width: 600px;
+  }
+  .new_book_name{
+width: 600px;
+text-align: center;
+font-size: 45px;
+  }
+  .new_book_author{
+    width: 600px;
+    text-align: center;
+font-size: 35px;
+  }
+  .new_book_total{
+    width: 600px;
+  }
+  .new_book_price{
+font-size: 40px;
+  }
+  .add_to_cart{
+width: 130px;
+  }
+  .add_to_cart_text{
+font-size: 35px;
+  }
+  .add_to_cart_image img{
+width: 45px;
+  }
+.new_games{
+width: 100%;
+}
+.new_games_text{
+  width: 1000px;
+  font-size: 80px;
+}
+.new_games_wholecont{
+  margin-left: 177px;
+  grid-template-columns: repeat(1,1fr);
+  gap: 140px;
+}
+.new_games_image img{
+  width: 800px;
+}
+.game_name{
+  width: 800px;
+  text-align: center;
+  font-size: 55px;
+}
+.about_game{
+  width: 800px;
+  text-align: center;
+font-size: 45px;
+}
+.new_game_total{
+  width: 800px;
+}
+.new_game_price{
+  font-size: 40px;
+}
+.games_add_cart{
+  width: 130px;
+}
+.games_cart_text{
+  font-size: 35px;
+}
+.game_cart img{
+  width: 45px;
+}
+.handmade{
+  width: 100%;
+}
+.handmade_text{
+  width: 1000px;
+  font-size: 80px;
+}
+.handmade_wholecont{
+  margin-left: 177px;
+  grid-template-columns: repeat(1,1fr);
+  gap: 140px;
+}
+.handmade_image img{
+  width: 800px;
+}
+.handmade_name{
+  width: 800px;
+  text-align: center;
+  font-size: 55px;
+}
+.about_handmade{
+  width: 800px;
+  text-align: center;
+font-size: 45px;
+}
+.handmade_total{
+  width: 800px;
+}
+.handmade_price{
+  font-size: 40px;
+}
+.handmade_add_cart{
+  width: 130px;
+}
+.handmade_cart_text{
+  font-size: 35px;
+}
+.handmade_cart img{
+  width: 45px;
+}
+.footer{
+  width: 1183px;
+  height: 115vh;
+}
+.line{
+  font-size: 100px;
+}
+.circle{
+  width: 350px;
+  height: 350px;
+}
+.rightside_foot{
+  font-size: 42px;
+    margin-top: -182px;
+    margin-left: -125px;
+    line-height: 45px;
+}
+
+
+
+
+
+
+
+
+}
