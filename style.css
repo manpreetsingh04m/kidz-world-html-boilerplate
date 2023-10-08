@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  margin: 0;
+  background-color: #EBEBEB;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Young Serif', serif;
+}
+/* Heading  */
+.heading{
+  display: flex;
+  width: 94vw;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 15px;
+  margin-left: 40px;
+}
+/* Left Side of heading */
+.left_side img{
+  width: 120px;
+}
+/* Left Side End  */
+/* Right Start  */
+.right_side{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.cart img{
+  width: 30px;
+}
+.right_text{
+  margin-top: -5px;
+}
+/* Right End  */
+/* Background Image  */
+.background{
+  margin-top: 10px;
+}
+.background_image img{
+width: 100%;
+height: 50vh;
+}
+/* Background Text  */
+.background_txt_cont{
+  position: absolute;
+ color: white;
+  top: 0;
+  width: 318px;
+  height: 401px;
+  margin-top: 46px;
+  margin-left: 1px;
+}
+.background_txt {
+  margin-top: 60px;
+  margin-left: 60px;
+  font-size: 50px;
+  text-align: start;
+}
+.background_txt1{
+  font-size: 20px;
+  margin-left: 60px;
+  margin-top: 20px;
+}
+/* Book Whole Container  */
+.new_books{
+  margin-top: 90px;
+}
+.new_books_text{
+  margin-left: 110px;
+  font-size: 18px;
+}
+.new_books_wholecont{
+  margin-top: 40px;
+  /* justify-items: center; */
+  margin-left: 110px;
+  width: 90vw;
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+  gap: 10px;
+  
+}
+.new_books_image img{
+  width: 160px;
+}
+.new_book_name{
+  width: 130px;
+  font-size: 14px;
+}
+.new_book_author{
+  font-size: 11px;
+  opacity: 0.5;
+  margin-top: 10px;
+}
+.new_book_total{
+  display: flex;
+  width: 160px;
+  justify-content: space-between;
+  margin-top: 20px;
+  align-items: center;
+}
+.new_book_price{
+  font-size: 16px;
+}
+.add_to_cart{
+display: flex;
+flex-direction: row;
+background-color: #6095FE;
+width: 65px;
+justify-content: center;
+justify-content: space-evenly;
+align-items: center;
+
+}
+.add_to_cart_text{
+font-size: 14px;
+color: white;
+}
+.add_to_cart_image img{
+width: 20px;
+margin-top: 3px;
+}
+
+/* New Books container Completed */
+
+/* New Games Section Started */
+.new_games{
+margin-top: 140px;
+}
+.new_games_text{
+  font-size: 18px;
+  margin-left: 120px;
+}
+.new_games_wholecont{
+  margin-top: 40px;
+  /* justify-items: center; */
+  margin-left: 120px;
+  width: 90vw;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 10px;
+  
+}
+.new_games_image img{
+  width: 240px;
+}
+.game_name{
+font-size: 15px;
+}
+.about_game{
+  font-size: 11px;
+  opacity: 0.5;
+  margin-top: 10px;
+}
+.new_game_total{
+  display: flex;
+  width: 240px;
+  justify-content: space-between;
+  margin-top: 20px;
+  align-items: center;
+}
+.new_game_price{
+  font-size: 16px;
+}
+.games_add_cart{
+  display: flex;
+  flex-direction: row;
+  background-color: #6095FE;
+  width: 65px;
+  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.games_cart_text{
+  font-size: 14px;
+  color: white;
+}
+.game_cart img{
+  width: 20px;
+  margin-top: 3px;
+}
+
+/* Games Section Completed */
+/* handmade Section Started*/
+
+.handmade{
+  margin-top: 130px;
+}
+
+.handmade_text{
+  font-size: 18px;
+  margin-left: 120px;
+}
+.handmade_wholecont{
+  margin-top: 40px;
+  /* justify-items: center; */
+  margin-left: 120px;
+  width: 90vw;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 10px;
+}
+.handmade_image img{
+  width: 240px;
+}
+.handmade_name{
+  font-size: 15px;
+}
+.about_handmade{
+  font-size: 11px;
+  opacity: 0.5;
+  margin-top: 10px;
+}
+.handmade_total{
+  display: flex;
+  width: 240px;
+  justify-content: space-between;
+  margin-top: 20px;
+  align-items: center;
+}
+.handmade_price{
+  font-size: 16px;
+}
+.handmade_add_cart{
+  display: flex;
+  flex-direction: row;
+  background-color: #6095FE;
+  width: 65px;
+  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.handmade_cart_text{
+  font-size: 14px;
+  color: white;
+}
+.handmade_cart img{
+  width: 20px;
+  margin-top: 3px;
+}
+
+/* Handmade Section Completed */
+
+/* Footer Started */
+
+.footer{
+  position: absolute;
+  margin-top: 130px;
+  background-color: black;
+  width: 100%;
+  height:25vh;
+}
+.insidefooter{
+  display: flex;
+  margin-left: 40px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+.line{
+  margin-top: 30px;
+  margin-left: 30px;
+  color: white;
+}
+.circle{
+
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-left: 30px;
+  margin-top: 10px;
+ background-image: url(/assets/krishti.png);
+ background-clip: content-box;
+ background-position: center;
+ background-size: cover;
+}
+.rightside_foot{
+  line-height: 30px;
+  text-align: right;
+  color: white;
+  margin-top: 40px;
+}
