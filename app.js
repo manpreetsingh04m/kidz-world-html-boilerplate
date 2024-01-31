@@ -166,6 +166,6 @@ for (let index = 0; index < items.length; index++) {
 }
 
 console.log(
-  "The total amount is " + finalDollars + "$ and " + finalCents + " cents"
+  "The total amount is " + FinalDollars + "$ and " + finalCents + " cents"
 );
 };
